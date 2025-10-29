@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LiveKit
+*.log
+logs/
+
+# Memory & Database
+memory_db/
+memory_db_backup*/
+memory_fallback/
+memory-bank/
+memory_key_index.txt
+
+# Generated Files
+generated_passwords.txt
+
+# Documentation (internal)
+docs/
+docs_imported/

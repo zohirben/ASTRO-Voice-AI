@@ -1,0 +1,25 @@
+# Core LiveKit Agents & Plugins
+livekit-agents
+livekit-plugins-google
+livekit-plugins-noise-cancellation
+
+# External APIs & Libraries
+ddgs>=1.0.0
+requests>=2.31.0
+python-dotenv
+
+# Memory & Vector Database
+# Gemini-only stack: mem0ai with Google Gemini for LLM and embeddings
+# See memory/README.md for memory system documentation
+mem0ai  # Latest version with Gemini support
+google-genai  # Google Generative AI SDK for Gemini models
+chromadb>=0.4.0  # ChromaDB for vector storage with on-disk persistence
+
+# Testing & Quality Assurance
+# See /docs_imported/agents/testing.md for testing guide
+pytest>=7.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.10.0
+pytest-cov>=4.0.0
+pytest-timeout>=2.1.0
+
