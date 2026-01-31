@@ -180,7 +180,7 @@ pytest --cov        # With coverage
 Apache 2.0 — See [LICENSE](LICENSE)
 
 ---
-
+probably am going to update this project later with more utilities and advanced technologies!
 <p align="center">
   <strong>Built by <a href="https://github.com/zohirben">Zohir Ben-aissa</a></strong><br>
   Powered by LiveKit & Google Gemini
